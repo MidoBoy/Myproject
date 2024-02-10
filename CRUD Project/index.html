@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<Div class="title">
+  <h1>CRUDS </h1>
+  <P>PRODUCT MANAGEMENT SYSTEM</P>
+</Div>
+
+<DIV class="edit_area">
+  <input type="text" id="productName" placeholder="Product Name"><br>
+  <input type="number" placeholder="Price" id='Price' onkeyup="calc_total()">
+  <input type="number" placeholder="taxes" id="taxes" onkeyup="calc_total()">
+  <input type="number"placeholder="ads" id='ads'onkeyup="calc_total()">
+  <input type="number"placeholder="discount" id="discount"onkeyup="calc_total()">
+  <p id="total"> </p><br>
+  <input type="text" placeholder="count" id="count"><br>
+  <input type="text" placeholder="Category" id="Category"><br>
+  <button onclick="addItem()" id="addBtn">Add Item</button><br>
+  <input  onkeyup="s()" type="text" placeholder="Search" id="search"><br>
+</DIV>
+<div class="search_area">
+  <button class="search" onclick="cT()" id="searchTitle">Search By Title</button>
+  <button class="search" onclick="cc()"id="searchCategory">Search By Category</button><br>
+  
+  <button onclick="funDeleteAll()" class="delete">Delete All</button><br>
+  
+</div>
+<div class=".data">
+  <table >
+    <thead>
+    <tr>
+    <th>ID</th>
+    <th>TITLE</th>
+    <th>PRICE</th>
+    <th>taxes</th>
+    <th>ADS</th>
+    <th>DISCOUNT</th>
+    <th>TOTAL</th>
+    <th>Category</th>
+    <th>UPDATE</th>
+    <th>DELETE</th>
+    </tr>
+    </thead>
+    <tbody id="Table">
+    
+    
+    </tbody ><br>
+    </table>
+    <div   id="gtx-trans" style="position: absolute; left: 124px; top: 45px;">&nbsp;</div>
+</div>
+
+  <script  src="main.js">  </script>
+</body>
+</html>

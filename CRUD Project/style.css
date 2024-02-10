@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  color: #fff;
+  font-family: fantasy;
+}
+
+input{
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border-radius:7px ;
+  background-color: black;
+}
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.edit_area{
+  width: 1050px;
+  background-color: rgba(0, 0, 0, 0.118);
+  padding: 15px;
+  margin: auto;
+}
+
+p{
+  display: inline-block;
+  margin: 3px;
+  background-color: brown;
+  padding: 5px;
+}
+#productName,#count,#Category,#search,#addBtn,#updatebtn{
+  width: 905PX;
+}
+
+button{
+  padding: 10px;
+  border-radius: 20px;
+  width: 300px;
+  background-color: rgb(127, 28, 166);
+  margin: 10px;
+  border: none;
+}
+.search_area{
+  margin: auto;
+  text-align: center;
+}
+.search_area .delete{
+  width: 627PX;
+}
+
+table{
+  
+ padding: 20px;
+  margin: auto;
+  width: 900px;
+}
+table td{
+  font-size: 14px;
+  padding: 30px;
+  margin-left: 10px;
+}
+
+table button{
+  width: 100px;
+}
+#total::before{
+content: "Total : ";
+}
+
+
+
+
